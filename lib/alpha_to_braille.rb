@@ -1,6 +1,5 @@
 require_relative 'key'
 require_relative 'reader'
-# require 'pry'; binding.pry
 
 class AlphaToBraille
   attr_reader :array_top, :array_middle, :array_bottom, :top_array, :middle_array,
